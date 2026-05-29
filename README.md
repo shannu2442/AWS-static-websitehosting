@@ -40,6 +40,7 @@ Cloud Platform
 - AWS Static Website Hosting  
 
 Project Structure
+
 aws-static-website-project/
 
 ├── index.html
@@ -60,6 +61,7 @@ aws-static-website-project/
 │   ├── project3.jpg
 
 │   └── project4.jpg
+
 │
 └── README.md
 
@@ -112,9 +114,11 @@ Bucket Policy Used
 
 {
   "Version": "2012-10-17",
-  
-  "Statement": [
+
+  "Statement":
+  [
     {
+    
       "Sid": "PublicRead",
       
       "Effect": "Allow",
