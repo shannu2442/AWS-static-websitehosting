@@ -43,14 +43,22 @@ Project Structure
 aws-static-website-project/
 
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 │
 ├── images/
+
 │   ├── profile.jpg
+
 │   ├── project1.jpg
+
 │   ├── project2.jpg
+
 │   ├── project3.jpg
+
 │   └── project4.jpg
 │
 └── README.md
