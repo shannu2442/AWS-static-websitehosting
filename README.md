@@ -98,7 +98,10 @@ Configure Bucket Policy.
 Step 8
 Access the website through the generated endpoint URL.
 
+
+
 Bucket Policy Used
+
 {
   "Version": "2012-10-17",
   
@@ -112,7 +115,7 @@ Bucket Policy Used
       
       "Action": "s3:GetObject",
       
-      "Resource": "arn:aws:s3:::your-bucket-name/*"
+      "Resource": "arn:aws:s3::awsstaticwebsite-484279833440-eu-north-1-an /*"
     }
   ]
 }
