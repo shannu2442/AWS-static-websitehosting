@@ -85,8 +85,11 @@ Step 6
 Upload all website files:
 
 index.html
+
 style.css
+
 script.js
+
 images/
 
 Step 7
@@ -98,12 +101,17 @@ Access the website through the generated endpoint URL.
 Bucket Policy Used
 {
   "Version": "2012-10-17",
+  
   "Statement": [
     {
       "Sid": "PublicRead",
+      
       "Effect": "Allow",
+      
       "Principal": "*",
+      
       "Action": "s3:GetObject",
+      
       "Resource": "arn:aws:s3:::your-bucket-name/*"
     }
   ]
