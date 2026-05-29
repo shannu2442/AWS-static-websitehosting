@@ -1,10 +1,10 @@
 AWS Static Website Hosting
 
 Project Overview
-This project demonstrates how to host a static website using **Amazon S3**.  
+This project demonstrates how to host a static website using "Amazon S3".  
 The website is designed as a personal portfolio with multiple sections such as Home, About, Projects, and Contact.  
 
-It showcases cloud deployment concepts using **AWS S3 Static Website Hosting** without using any traditional backend server.
+It showcases cloud deployment concepts using "AWS S3 Static Website Hosting" without using any traditional backend server.
 
 Live Website
 
@@ -12,7 +12,9 @@ Website URL:
 https://awsstaticwebsite-484279833440-eu-north-1-an.s3.eu-north-1.amazonaws.com/AWS/index.html
 
 Internship Details:
+
 Name:Kotla Shanmukha Rao
+
 CodTech Intern ID: CITS812
 
 Features
@@ -72,6 +74,7 @@ Step 3
 Create a new bucket.
 Example:
 awsstaticwebsite
+
 Step 4
 Disable Block Public Access.
 
