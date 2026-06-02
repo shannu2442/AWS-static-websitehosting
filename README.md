@@ -88,7 +88,7 @@ Create a new bucket.
 Example:
 
 ```text
-your-portfolio-bucket-name
+awsstaticwebsite
 ```
 
 ### Step 4
@@ -112,16 +112,16 @@ Access the website through the generated endpoint URL.
 
 ```json
 {
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Sid": "PublicRead",
-      "Effect": "Allow",
-      "Principal": "*",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::your-bucket-name/*"
-    }
-  ]
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::awsstaticwebsite-484279833440-eu-north-1-an/*"
+        }
+    ]
 }
 ```
 
